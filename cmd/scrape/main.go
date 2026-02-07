@@ -402,12 +402,13 @@ func main() {
 		log.Fatal(err)
 	}
 
-	if err := writeJSON("public/manas_kantin.json", kantin); err != nil {
-		log.Fatal(err)
+	if err := writeJSON("manas_kantin.json", kantin); err != nil {
+	log.Fatal(err)
 	}
-	if err := writeJSON("public/buffet_1.json", buffet); err != nil {
-		log.Fatal(err)
+	if err := writeJSON("buffet_1.json", buffet); err != nil {
+	log.Fatal(err)
 	}
 
-	fmt.Println("OK: wrote public/manas_kantin.json and public/buffet_1.json")
+
+	fmt.Println("OK: wrote manas_kantin.json and buffet_1.json")
 }
