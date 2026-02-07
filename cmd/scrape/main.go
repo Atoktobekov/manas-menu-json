@@ -300,10 +300,10 @@ func scrapeBuffet1() (BuffetOut, error) {
 	now := time.Now().UTC().Format(time.RFC3339)
 
 	catMapRU := map[string]string{
-		"SICAK İÇECEK":       "Горячие напитки",
-		"PİZZA VE PİDELER":   "Пицца и пиде",
-		"UNLU MAMÜLLER":      "Выпечка",
-		"KAHVALTILIKLAR":     "Завтраки",
+		"SICAK İÇECEK":     "Горячие напитки",
+		"PİZZA VE PİDELER": "Пицца и пиде",
+		"UNLU MAMÜLLER":    "Выпечка",
+		"KAHVALTILIKLAR":   "Завтраки",
 		// если появятся новые категории — добавишь сюда
 	}
 
@@ -402,13 +402,12 @@ func main() {
 		log.Fatal(err)
 	}
 
-	if err := writeJSON("manas_kantin.json", kantin); err != nil {
-	log.Fatal(err)
+	if err := writeJSON(filepath.Join("public", "manas_kantin.json"), kantin); err != nil {
+		log.Fatal(err)
 	}
-	if err := writeJSON("buffet_1.json", buffet); err != nil {
-	log.Fatal(err)
+	if err := writeJSON(filepath.Join("public", "buffet.json"), buffet); err != nil {
+		log.Fatal(err)
 	}
 
-
-	fmt.Println("OK: wrote manas_kantin.json and buffet_1.json")
+	fmt.Println("OK: wrote public/manas_kantin.json and public/buffet.json")
 }
