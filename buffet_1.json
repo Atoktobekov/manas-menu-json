@@ -1,0 +1,283 @@
+{
+  "categories": [
+    {
+      "id": "sicak_icecek",
+      "title": "Горячие напитки",
+      "items": [
+        {
+          "id": "cay_demleme",
+          "name": "ÇAY DEMLEME",
+          "price": 18
+        },
+        {
+          "id": "cay_sallama",
+          "name": "ÇAY SALLAMA",
+          "price": 18
+        },
+        {
+          "id": "kahve_sade",
+          "name": "KAHVE SADE",
+          "price": 30
+        },
+        {
+          "id": "kahve_sutlu",
+          "name": "KAHVE SÜTLÜ",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "pizza_ve_pideler",
+      "title": "Пицца и пиде",
+      "items": [
+        {
+          "id": "lahmacun",
+          "name": "LAHMACUN",
+          "price": 80
+        },
+        {
+          "id": "pide_karisik",
+          "name": "PİDE KARIŞIK",
+          "price": 170
+        },
+        {
+          "id": "pide_kiymali",
+          "name": "PİDE KIYMALI",
+          "price": 150
+        },
+        {
+          "id": "pide_peynirli",
+          "name": "PİDE PEYNİRLİ",
+          "price": 160
+        },
+        {
+          "id": "pide_yumurtali",
+          "name": "PİDE YUMURTALI",
+          "price": 140
+        },
+        {
+          "id": "pizza_karisik",
+          "name": "PİZZA KARIŞIK",
+          "price": 250
+        },
+        {
+          "id": "pizza_peynirli",
+          "name": "PİZZA PEYNİRLİ",
+          "price": 210
+        },
+        {
+          "id": "pizza_sosisli",
+          "name": "PİZZA SOSİSLİ",
+          "price": 240
+        },
+        {
+          "id": "tost_kasarli",
+          "name": "TOST KAŞARLI",
+          "price": 85
+        },
+        {
+          "id": "tost_karisik",
+          "name": "TOST KARIŞIK",
+          "price": 110
+        }
+      ]
+    },
+    {
+      "id": "unlu_mamuller",
+      "title": "Выпечка",
+      "items": [
+        {
+          "id": "sandvic_satis",
+          "name": "SANDVİÇ SATIŞ",
+          "price": 70
+        },
+        {
+          "id": "ekmek_satis",
+          "name": "EKMEK SATIŞ",
+          "price": 30
+        },
+        {
+          "id": "su_boregi_peynirli",
+          "name": "SU BÖREĞİ PEYNİRLİ",
+          "price": 45
+        },
+        {
+          "id": "pogaca_lorlu",
+          "name": "POĞAÇA LORLU",
+          "price": 35
+        },
+        {
+          "id": "samsi_kiymali",
+          "name": "SAMSI KIYMALI",
+          "price": 45
+        },
+        {
+          "id": "samsi_lorlu",
+          "name": "SAMSI LORLU",
+          "price": 45
+        },
+        {
+          "id": "simit",
+          "name": "SİMİT",
+          "price": 35
+        },
+        {
+          "id": "top_kek",
+          "name": "TOP KEK",
+          "price": 35
+        },
+        {
+          "id": "pogaca_cevizli",
+          "name": "POĞAÇA CEVİZLİ",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "kahvaltiliklar",
+      "title": "Завтраки",
+      "items": [
+        {
+          "id": "bal_50_gr",
+          "name": "BAL 50 GR",
+          "price": 40
+        },
+        {
+          "id": "kahvalti_tabagi",
+          "name": "KAHVALTI TABAĞI",
+          "price": 150
+        },
+        {
+          "id": "tereyag_50_gr",
+          "name": "TEREYAĞ 50 GR",
+          "price": 40
+        },
+        {
+          "id": "zeytin_50_gr",
+          "name": "ZEYTİN 50 GR",
+          "price": 45
+        }
+      ]
+    },
+    {
+      "id": "salatalar",
+      "title": "SALATALAR",
+      "items": [
+        {
+          "id": "havuc_salatasi",
+          "name": "HAVUÇ SALATASI",
+          "price": 40
+        },
+        {
+          "id": "rus_salatasi",
+          "name": "RUS SALATASI",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "tatlilar",
+      "title": "TATLILAR",
+      "items": [
+        {
+          "id": "baklava",
+          "name": "BAKLAVA",
+          "price": 45
+        },
+        {
+          "id": "islak_kek",
+          "name": "ISLAK KEK",
+          "price": 50
+        },
+        {
+          "id": "kakaolu_puding_cevizli",
+          "name": "KAKAOLU PUDİNG CEVİZLİ",
+          "price": 50
+        },
+        {
+          "id": "kalbur_tatlisi",
+          "name": "KALBUR TATLISI",
+          "price": 50
+        },
+        {
+          "id": "sutlac_cevizli",
+          "name": "SÜTLAÇ CEVİZLİ",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "kofte_ve_donerler",
+      "title": "KÖFTE VE DÖNERLER",
+      "items": [
+        {
+          "id": "izgara_kofte_servis",
+          "name": "IZGARA KÖFTE SERVİS",
+          "price": 220
+        },
+        {
+          "id": "kofte_ekmek_arasi",
+          "name": "KÖFTE EKMEK ARASI",
+          "price": 110
+        }
+      ]
+    },
+    {
+      "id": "yogurtlar",
+      "title": "YOĞURTLAR",
+      "items": [
+        {
+          "id": "yogurt_600_gr",
+          "name": "YOĞURT 600 GR",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "soguk_icecekler",
+      "title": "SOĞUK İÇECEKLER",
+      "items": [
+        {
+          "id": "kola_05_lt",
+          "name": "KOLA 0,5 LT",
+          "price": 57
+        },
+        {
+          "id": "kola_1_lt",
+          "name": "KOLA 1 LT",
+          "price": 90
+        },
+        {
+          "id": "fanta_05_lt",
+          "name": "FANTA 0,5 LT",
+          "price": 57
+        },
+        {
+          "id": "fanta_1_lt",
+          "name": "FANTA 1 LT",
+          "price": 90
+        },
+        {
+          "id": "legenda_su_05_lt",
+          "name": "LEGENDA SU 0,5 LT",
+          "price": 27
+        },
+        {
+          "id": "maden_suyu_beypazari",
+          "name": "MADEN SUYU BEYPAZARI",
+          "price": 48
+        },
+        {
+          "id": "fuse_tea_05_lt",
+          "name": "FUSE TEA 0,5 LT",
+          "price": 57
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "timezone": "Asia/Bishkek",
+    "currency": "KGS",
+    "lastUpdated": "2026-02-07T15:22:37Z"
+  }
+}
