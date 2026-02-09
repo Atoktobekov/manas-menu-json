@@ -100,15 +100,6 @@
       "caloriesKcal": 217
     },
     {
-      "id": "islak_kek",
-      "name": {
-        "tr": "Islak Kek",
-        "ru": "Islak Kek",
-        "en": "Islak Kek"
-      },
-      "caloriesKcal": 380
-    },
-    {
       "id": "ispanakli_gul_boregi",
       "name": {
         "tr": "Ispanaklı Gül Böreği",
@@ -381,15 +372,6 @@
   ],
   "menus": [
     {
-      "date": "2026-02-08",
-      "items": [
-        "arpa_sehriye_corbasi",
-        "et_haslama",
-        "sehriyeli_pirinc_pilavi",
-        "islak_kek"
-      ]
-    },
-    {
       "date": "2026-02-09",
       "items": [
         "mercimek_corbasi",
@@ -573,6 +555,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "source": "manas_kantin",
-    "lastUpdated": "2026-02-08T03:31:19Z"
+    "lastUpdated": "2026-02-09T03:17:12Z"
   }
 }
