@@ -109,15 +109,6 @@
       "caloriesKcal": 290
     },
     {
-      "id": "karnabahar_musakka",
-      "name": {
-        "tr": "Karnabahar Musakka",
-        "ru": "Karnabahar Musakka",
-        "en": "Karnabahar Musakka"
-      },
-      "caloriesKcal": 266
-    },
-    {
       "id": "kavurma",
       "name": {
         "tr": "Kavurma",
@@ -197,15 +188,6 @@
         "en": "Orman Kebabı"
       },
       "caloriesKcal": 191
-    },
-    {
-      "id": "patatesli_gul_boregi",
-      "name": {
-        "tr": "Patatesli Gül Böreği",
-        "ru": "Patatesli Gül Böreği",
-        "en": "Patatesli Gül Böreği"
-      },
-      "caloriesKcal": 310
     },
     {
       "id": "pureli_kofte",
@@ -289,15 +271,6 @@
       "caloriesKcal": 402
     },
     {
-      "id": "tel_sehriyeli_yesil_mercimek_corbasi",
-      "name": {
-        "tr": "Tel Şehriyeli Yeşil Mercimek Çorbası",
-        "ru": "Tel Şehriyeli Yeşil Mercimek Çorbası",
-        "en": "Tel Şehriyeli Yeşil Mercimek Çorbası"
-      },
-      "caloriesKcal": 180
-    },
-    {
       "id": "tutmac_corbasi",
       "name": {
         "tr": "Tutmaç Çorbası",
@@ -335,15 +308,6 @@
     }
   ],
   "menus": [
-    {
-      "date": "2026-02-11",
-      "items": [
-        "tel_sehriyeli_yesil_mercimek_corbasi",
-        "karnabahar_musakka",
-        "patatesli_gul_boregi",
-        "yogurt"
-      ]
-    },
     {
       "date": "2026-02-12",
       "items": [
@@ -501,6 +465,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "source": "manas_kantin",
-    "lastUpdated": "2026-02-11T03:22:11Z"
+    "lastUpdated": "2026-02-12T03:17:49Z"
   }
 }
