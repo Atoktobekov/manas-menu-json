@@ -291,15 +291,6 @@
   ],
   "menus": [
     {
-      "date": "2026-02-13",
-      "items": [
-        "elvan_corbasi",
-        "tavuk_baget_firin_patates",
-        "sehriyeli_pirinc_pilavi",
-        "karisik_komposto"
-      ]
-    },
-    {
       "date": "2026-02-14",
       "items": [
         "ezogelin_corbasi",
@@ -438,6 +429,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "source": "manas_kantin",
-    "lastUpdated": "2026-02-13T03:18:11Z"
+    "lastUpdated": "2026-02-14T02:49:06Z"
   }
 }
