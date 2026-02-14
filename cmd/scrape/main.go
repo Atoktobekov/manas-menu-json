@@ -16,10 +16,10 @@ import (
 )
 
 const (
-	timezone   = "Asia/Bishkek"
-	currency   = "KGS"
-	kantinURL  = "https://beslenme.manas.edu.kg/menu"
-	buffetURL1 = "https://beslenme.manas.edu.kg/1"
+	timezone  = "Asia/Bishkek"
+	currency  = "KGS"
+	kantinURL = "https://beslenme.manas.edu.kg/menu"
+	buffetURL = "https://beslenme.manas.edu.kg/1"
 )
 
 var (
@@ -99,6 +99,7 @@ func fetchDoc(url string) (*goquery.Document, error) {
 }
 
 // Turkish → ASCII slug, safe for IDs.
+
 func slugTR(s string) string {
 	s = strings.TrimSpace(s)
 	s = strings.ToLower(s)
@@ -189,6 +190,7 @@ func parseDate(s string) (string, bool) {
 // NOTE: страницы выглядят как последовательность заголовков:
 // - "#####  07.02.2026 Cumartesi" (дата)
 // - далее блоки блюд: "#####  Yayla Çorbası" + "###### Kalori: 175" :contentReference[oaicite:2]{index=2}
+
 func scrapeKantin() (KantinOut, error) {
 	doc, err := fetchDoc(kantinURL)
 	if err != nil {
@@ -291,8 +293,9 @@ func scrapeKantin() (KantinOut, error) {
 
 // Страница /1 — категории идут заголовком, дальше позиции:
 // "#### SICAK İÇECEK", затем "##### ÇAY DEMLEME" + "###### Fiyatı: 18 som" :contentReference[oaicite:4]{index=4}
+
 func scrapeBuffet1() (BuffetOut, error) {
-	doc, err := fetchDoc(buffetURL1)
+	doc, err := fetchDoc(buffetURL)
 	if err != nil {
 		return BuffetOut{}, err
 	}
@@ -300,10 +303,10 @@ func scrapeBuffet1() (BuffetOut, error) {
 	now := time.Now().UTC().Format(time.RFC3339)
 
 	catMapRU := map[string]string{
-		"SICAK İÇECEK":       "Горячие напитки",
-		"PİZZA VE PİDELER":   "Пицца и пиде",
-		"UNLU MAMÜLLER":      "Выпечка",
-		"KAHVALTILIKLAR":     "Завтраки",
+		"SICAK İÇECEK":     "Горячие напитки",
+		"PİZZA VE PİDELER": "Пицца и пиде",
+		"UNLU MAMÜLLER":    "Выпечка",
+		"KAHVALTILIKLAR":   "Завтраки",
 		// если появятся новые категории — добавишь сюда
 	}
 
@@ -403,12 +406,11 @@ func main() {
 	}
 
 	if err := writeJSON("manas_kantin.json", kantin); err != nil {
-	log.Fatal(err)
+		log.Fatal(err)
 	}
 	if err := writeJSON("buffet_1.json", buffet); err != nil {
-	log.Fatal(err)
+		log.Fatal(err)
 	}
-
 
 	fmt.Println("OK: wrote manas_kantin.json and buffet_1.json")
 }
