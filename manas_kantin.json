@@ -1,15 +1,6 @@
 {
   "foods": [
     {
-      "id": "ankara_tava",
-      "name": {
-        "tr": "Ankara Tava",
-        "ru": "Ankara Tava",
-        "en": "Ankara Tava"
-      },
-      "caloriesKcal": 804
-    },
-    {
       "id": "arpa_sehriye_corbasi",
       "name": {
         "tr": "Arpa Şehriye Çorbası",
@@ -291,15 +282,6 @@
   ],
   "menus": [
     {
-      "date": "2026-02-14",
-      "items": [
-        "ezogelin_corbasi",
-        "ankara_tava",
-        "mevsim_salatasi",
-        "yogurt"
-      ]
-    },
-    {
       "date": "2026-02-15",
       "items": [
         "yogurtlu_eriste_corbasi",
@@ -429,6 +411,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "source": "manas_kantin",
-    "lastUpdated": "2026-02-14T07:02:31Z"
+    "lastUpdated": "2026-02-15T03:19:05Z"
   }
 }
