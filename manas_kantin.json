@@ -127,15 +127,6 @@
       "caloriesKcal": 525
     },
     {
-      "id": "lokma_tatlisi",
-      "name": {
-        "tr": "Lokma Tatlısı",
-        "ru": "Lokma Tatlısı",
-        "en": "Lokma Tatlısı"
-      },
-      "caloriesKcal": 200
-    },
-    {
       "id": "mercimek_corbasi",
       "name": {
         "tr": "Mercimek Çorbası",
@@ -282,15 +273,6 @@
   ],
   "menus": [
     {
-      "date": "2026-02-15",
-      "items": [
-        "yogurtlu_eriste_corbasi",
-        "kurdak",
-        "sehriyeli_pirinc_pilavi",
-        "lokma_tatlisi"
-      ]
-    },
-    {
       "date": "2026-02-16",
       "items": [
         "suzme_mercimek_corbasi",
@@ -411,6 +393,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "source": "manas_kantin",
-    "lastUpdated": "2026-02-15T03:19:05Z"
+    "lastUpdated": "2026-02-16T03:16:03Z"
   }
 }
