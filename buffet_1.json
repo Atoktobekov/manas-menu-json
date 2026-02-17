@@ -125,11 +125,6 @@
           "id": "top_kek",
           "name": "TOP KEK",
           "price": 35
-        },
-        {
-          "id": "pogaca_cevizli",
-          "name": "POĞAÇA CEVİZLİ",
-          "price": 40
         }
       ]
     },
@@ -278,6 +273,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "currency": "KGS",
-    "lastUpdated": "2026-02-16T03:16:03Z"
+    "lastUpdated": "2026-02-17T02:54:31Z"
   }
 }

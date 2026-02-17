@@ -64,15 +64,6 @@
       "caloriesKcal": 900
     },
     {
-      "id": "etli_nohut",
-      "name": {
-        "tr": "Etli Nohut",
-        "ru": "Etli Nohut",
-        "en": "Etli Nohut"
-      },
-      "caloriesKcal": 365
-    },
-    {
       "id": "ezogelin_corbasi",
       "name": {
         "tr": "Ezogelin Çorbası",
@@ -273,15 +264,6 @@
   ],
   "menus": [
     {
-      "date": "2026-02-16",
-      "items": [
-        "suzme_mercimek_corbasi",
-        "etli_nohut",
-        "sehriyeli_pirinc_pilavi",
-        "cacik"
-      ]
-    },
-    {
       "date": "2026-02-17",
       "items": [
         "kremali_bal_kabak_corbasi",
@@ -393,6 +375,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "source": "manas_kantin",
-    "lastUpdated": "2026-02-16T03:16:03Z"
+    "lastUpdated": "2026-02-17T02:54:31Z"
   }
 }
