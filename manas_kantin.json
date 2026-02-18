@@ -100,15 +100,6 @@
       "caloriesKcal": 361
     },
     {
-      "id": "kremali_bal_kabak_corbasi",
-      "name": {
-        "tr": "Kremalı Bal Kabak Çorbası",
-        "ru": "Kremalı Bal Kabak Çorbası",
-        "en": "Kremalı Bal Kabak Çorbası"
-      },
-      "caloriesKcal": 155
-    },
-    {
       "id": "kurdak",
       "name": {
         "tr": "Kurdak",
@@ -190,15 +181,6 @@
       "caloriesKcal": 140
     },
     {
-      "id": "soslu_kofte",
-      "name": {
-        "tr": "Soslu Köfte",
-        "ru": "Soslu Köfte",
-        "en": "Soslu Köfte"
-      },
-      "caloriesKcal": 315
-    },
-    {
       "id": "suzme_mercimek_corbasi",
       "name": {
         "tr": "Süzme Mercimek  Çorbası",
@@ -263,15 +245,6 @@
     }
   ],
   "menus": [
-    {
-      "date": "2026-02-17",
-      "items": [
-        "kremali_bal_kabak_corbasi",
-        "soslu_kofte",
-        "sehriyeli_bulgur_pilavi",
-        "seker_pare"
-      ]
-    },
     {
       "date": "2026-02-18",
       "items": [
@@ -375,6 +348,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "source": "manas_kantin",
-    "lastUpdated": "2026-02-17T02:54:31Z"
+    "lastUpdated": "2026-02-18T03:13:45Z"
   }
 }
