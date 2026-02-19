@@ -1,24 +1,6 @@
 {
   "foods": [
     {
-      "id": "arpa_sehriye_corbasi",
-      "name": {
-        "tr": "Arpa Şehriye Çorbası",
-        "ru": "Arpa Şehriye Çorbası",
-        "en": "Arpa Şehriye Çorbası"
-      },
-      "caloriesKcal": 186
-    },
-    {
-      "id": "bal_kabakli_gul_boregi",
-      "name": {
-        "tr": "Bal Kabaklı Gül Böreği",
-        "ru": "Bal Kabaklı Gül Böreği",
-        "en": "Bal Kabaklı Gül Böreği"
-      },
-      "caloriesKcal": 311
-    },
-    {
       "id": "cacik",
       "name": {
         "tr": "Cacık",
@@ -136,15 +118,6 @@
       "caloriesKcal": 221
     },
     {
-      "id": "orman_kebabi",
-      "name": {
-        "tr": "Orman Kebabı",
-        "ru": "Orman Kebabı",
-        "en": "Orman Kebabı"
-      },
-      "caloriesKcal": 191
-    },
-    {
       "id": "pureli_kofte",
       "name": {
         "tr": "Püreli Köfte",
@@ -246,15 +219,6 @@
   ],
   "menus": [
     {
-      "date": "2026-02-18",
-      "items": [
-        "arpa_sehriye_corbasi",
-        "orman_kebabi",
-        "bal_kabakli_gul_boregi",
-        "yogurt"
-      ]
-    },
-    {
       "date": "2026-02-19",
       "items": [
         "ezogelin_corbasi",
@@ -348,6 +312,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "source": "manas_kantin",
-    "lastUpdated": "2026-02-18T03:13:45Z"
+    "lastUpdated": "2026-02-19T03:11:46Z"
   }
 }

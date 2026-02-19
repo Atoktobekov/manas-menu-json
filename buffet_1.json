@@ -58,27 +58,27 @@
         {
           "id": "pizza_karisik",
           "name": "PİZZA KARIŞIK",
-          "price": 250
+          "price": 260
         },
         {
           "id": "pizza_peynirli",
           "name": "PİZZA PEYNİRLİ",
-          "price": 210
+          "price": 220
         },
         {
           "id": "pizza_sosisli",
           "name": "PİZZA SOSİSLİ",
-          "price": 240
+          "price": 250
         },
         {
           "id": "tost_kasarli",
           "name": "TOST KAŞARLI",
-          "price": 85
+          "price": 90
         },
         {
           "id": "tost_karisik",
           "name": "TOST KARIŞIK",
-          "price": 110
+          "price": 130
         }
       ]
     },
@@ -89,7 +89,7 @@
         {
           "id": "sandvic_satis",
           "name": "SANDVİÇ SATIŞ",
-          "price": 70
+          "price": 75
         },
         {
           "id": "ekmek_satis",
@@ -99,12 +99,12 @@
         {
           "id": "su_boregi_peynirli",
           "name": "SU BÖREĞİ PEYNİRLİ",
-          "price": 45
+          "price": 50
         },
         {
           "id": "pogaca_lorlu",
           "name": "POĞAÇA LORLU",
-          "price": 35
+          "price": 40
         },
         {
           "id": "samsi_kiymali",
@@ -119,12 +119,12 @@
         {
           "id": "simit",
           "name": "SİMİT",
-          "price": 35
+          "price": 40
         },
         {
           "id": "top_kek",
           "name": "TOP KEK",
-          "price": 35
+          "price": 40
         }
       ]
     },
@@ -135,7 +135,7 @@
         {
           "id": "bal_50_gr",
           "name": "BAL 50 GR",
-          "price": 40
+          "price": 45
         },
         {
           "id": "kahvalti_tabagi",
@@ -150,7 +150,7 @@
         {
           "id": "zeytin_50_gr",
           "name": "ZEYTİN 50 GR",
-          "price": 45
+          "price": 50
         }
       ]
     },
@@ -177,12 +177,12 @@
         {
           "id": "baklava",
           "name": "BAKLAVA",
-          "price": 45
+          "price": 50
         },
         {
           "id": "islak_kek",
           "name": "ISLAK KEK",
-          "price": 50
+          "price": 60
         },
         {
           "id": "kakaolu_puding_cevizli",
@@ -192,7 +192,7 @@
         {
           "id": "kalbur_tatlisi",
           "name": "KALBUR TATLISI",
-          "price": 50
+          "price": 60
         },
         {
           "id": "sutlac_cevizli",
@@ -208,12 +208,12 @@
         {
           "id": "izgara_kofte_servis",
           "name": "IZGARA KÖFTE SERVİS",
-          "price": 220
+          "price": 250
         },
         {
           "id": "kofte_ekmek_arasi",
           "name": "KÖFTE EKMEK ARASI",
-          "price": 110
+          "price": 125
         }
       ]
     },
@@ -273,6 +273,6 @@
   "meta": {
     "timezone": "Asia/Bishkek",
     "currency": "KGS",
-    "lastUpdated": "2026-02-18T03:13:45Z"
+    "lastUpdated": "2026-02-19T03:11:46Z"
   }
 }
